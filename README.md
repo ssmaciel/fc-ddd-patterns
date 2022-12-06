@@ -1,2 +1,2 @@
 # fc-ddd-patterns
-Curso Full Cycle - Modulo DDD Patterns
+Curso Full Cycle - Modulo DDD: Modelagem Tática e Patterns
