@@ -6,17 +6,13 @@ import { Column, Model, PrimaryKey, Table } from "sequelize-typescript";
 })
 export default class ProductModel extends Model {
     
-    @Column
     @PrimaryKey
+    @Column
     declare id: string;
 
-    @Column({
-        allowNull: false
-    })
+    @Column({ allowNull: false })
     declare name: string;
 
-    @Column({
-        allowNull: false
-    })
+    @Column({ allowNull: false })
     declare price: number
 }
